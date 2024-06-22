@@ -1,0 +1,30 @@
+/** @format */
+
+h1 {
+    text-align: center;
+    margin: 40px 0 80px 0;
+}
+p {
+    font-size: 24px;
+    text-align: center;
+}
+ul {
+    text-align: center;
+    background-image: linear-gradient(skyblue, darkgray);
+}
+li {
+    display: inline-block;
+    font-size: 40px;
+    margin: 30px;
+    box-sizing: border-box;
+}
+*:has(> .handwriteUnderline) {
+    position: relative;
+}
+
+.handwriteUnderlineStyle {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
